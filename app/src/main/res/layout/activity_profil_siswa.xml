@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profil_siswa">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Profil"
+                android:layout_centerInParent="true"
+                android:textColor="@android:color/white"
+                android:textSize="22sp"
+                android:layout_alignParentLeft="true"/>
+
+            <ImageButton
+                android:id="@+id/btn_list_pengajuan"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:src="@drawable/shopping_list2"
+                android:scaleType="centerCrop"
+                android:layout_marginRight="12dp"
+                android:backgroundTint="@android:color/transparent"/>
+
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/man"
+            app:civ_border_color="#fff"
+            app:civ_border_width="2dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profile_image"
+            android:textSize="20sp"
+            android:layout_marginTop="44dp"
+            android:layout_marginLeft="24dp"
+            android:id="@+id/tv_nis"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_nis"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="8dp"
+            android:textSize="20sp"
+            android:id="@+id/tv_nama"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_nama"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="8dp"
+            android:textSize="20sp"
+            android:id="@+id/tv_kelas"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_kelas"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="8dp"
+            android:textSize="20sp"
+            android:id="@+id/tv_jurusan"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_jurusan"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="8dp"
+            android:textSize="20sp"
+            android:id="@+id/tv_alamat"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_alamat"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="8dp"
+            android:textSize="20sp"
+            android:id="@+id/tv_no_telp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorAccent"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:id="@+id/bottomnav">
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_toLeftOf="@id/btn_home"
+            android:src="@drawable/user_silhouette"
+            android:layout_centerInParent="true"
+            android:backgroundTint="@android:color/transparent"
+            android:scaleType="centerCrop"
+            android:id="@+id/btn_user"/>
+
+        <ImageButton
+            android:id="@+id/btn_home"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/home"
+            android:backgroundTint="@android:color/transparent"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="22dp"/>
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@id/btn_home"
+            android:src="@drawable/message_closed_envelope"
+            android:scaleType="centerCrop"
+            android:backgroundTint="@android:color/transparent"
+            android:id="@+id/btn_pesan"
+            android:layout_marginLeft="22dp"/>
+    </RelativeLayout>
+</RelativeLayout>

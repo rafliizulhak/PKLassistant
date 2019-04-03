@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "343614815209",
+    "firebase_url": "https://aplikasi-pengajuan-pkl.firebaseio.com",
+    "project_id": "aplikasi-pengajuan-pkl",
+    "storage_bucket": "aplikasi-pengajuan-pkl.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:343614815209:android:bcf01c03cb09711c",
+        "android_client_info": {
+          "package_name": "com.example.user.pklassistant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "343614815209-a2scmh2od3pan30adm3o47opgffg63d6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.pklassistant",
+            "certificate_hash": "9171d68786d5c10ec86b996063a3c4a1fa863071"
+          }
+        },
+        {
+          "client_id": "343614815209-fcciobi3gud748btqopem4i0cpm0i39q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCI8DMfxi5nj3rOjHFjVaWqzDGI3eHu4-s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "343614815209-fcciobi3gud748btqopem4i0cpm0i39q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

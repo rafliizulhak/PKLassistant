@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group>
+    <item
+        android:id="@+id/profil_menu"
+        android:title="@string/profil"
+        android:icon="@drawable/user"
+        android:onClick="profil_siswa"/>
+
+    <item
+        android:id="@+id/home_menu"
+        android:title="@string/home"
+        android:icon="@drawable/home"
+        android:onClick="home_siswa"/>
+
+    <item
+        android:id="@+id/pesan_menu"
+        android:title="@string/pesan"
+        android:icon="@drawable/message_closed_envelope"
+        android:onClick="pesan_siswa"/>
+
+</group>
+
+</menu>

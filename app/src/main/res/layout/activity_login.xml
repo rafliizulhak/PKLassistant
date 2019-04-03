@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login"
+    android:background="@drawable/background_app">
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imv_tooltip"
+        android:src="@drawable/question_mark"
+        android:scaleType="centerCrop"
+        android:backgroundTint="@android:color/transparent"
+        android:tooltipText="dapatkan username dan password dengan menghubungi hubin"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="35dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/logosmknobackground"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/hubin1"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/hubin2"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"/>
+
+        <EditText
+            android:id="@+id/txt_username"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded_corner2"
+            android:layout_marginTop="28dp"
+            android:layout_gravity="center_horizontal"
+            android:hint="Username"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@android:color/darker_gray"
+            android:paddingLeft="18dp"/>
+
+        <EditText
+            android:id="@+id/txt_password"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded_corner2"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center_horizontal"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColorHint="@android:color/darker_gray"
+            android:paddingLeft="18dp"/>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded_corner"
+            android:layout_marginTop="18dp"
+            android:layout_gravity="center_horizontal"
+            android:text="LOGIN"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

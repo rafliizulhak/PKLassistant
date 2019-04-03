@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="horizontal"
+    android:id="@+id/layout1">
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:textStyle="bold"
+        android:id="@+id/tv_id"
+        android:paddingRight="8dp"/>
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/id"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/tv_id"/>
+
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Nama Perusahaan"
+        android:layout_toRightOf="@id/tv_id"
+        android:paddingRight="8dp"
+        android:textStyle="bold"
+        android:id="@+id/tv_namaPerusahaan"/>
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/nama"
+            android:layout_marginTop="8dp"
+            android:layout_below="@+id/tv_namaPerusahaan"
+            android:layout_toRightOf="@id/tv_id"/>
+
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Alamat Perusahaan"
+        android:layout_toRightOf="@id/tv_namaPerusahaan"
+        android:paddingRight="8dp"
+        android:textStyle="bold"
+        android:id="@+id/tv_alamatPerusahaan"/>
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/alamat"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/tv_alamatPerusahaan"
+            android:layout_toRightOf="@id/tv_namaPerusahaan" />
+
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Telp Perusahaan"
+        android:layout_toRightOf="@id/tv_alamatPerusahaan"
+        android:paddingRight="8dp"
+        android:textStyle="bold"
+        android:id="@+id/tv_telpPerusahaan"/>
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/telp"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/tv_telpPerusahaan"
+            android:layout_toRightOf="@id/tv_alamatPerusahaan"/>
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:text="Periode"
+        android:layout_toRightOf="@id/tv_telpPerusahaan"
+        android:paddingRight="8dp"
+        android:textStyle="bold"
+        android:id="@+id/tv_periode"/>
+
+        <TextView
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/periode"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/tv_periode"
+            android:layout_toRightOf="@id/tv_telpPerusahaan"/>
+
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Tahun"
+        android:layout_toRightOf="@id/tv_periode"
+        android:paddingRight="8dp"
+        android:textStyle="bold"
+        android:id="@+id/tv_tahun"/>
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tahun"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/tv_tahun"
+            android:layout_toRightOf="@id/tv_periode"/>
+
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Status"
+        android:layout_toRightOf="@id/tv_tahun"
+        android:paddingRight="8dp"
+        android:textStyle="bold"
+        android:id="@+id/tv_status"/>
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/status"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/tv_status"
+            android:layout_toRightOf="@id/tv_tahun"/>
+
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="ID User"
+        android:layout_toRightOf="@id/tv_status"
+        android:paddingRight="8dp"
+        android:textStyle="bold"
+        android:id="@+id/tv_idUser"/>
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/id_user"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/tv_idUser"
+            android:layout_toRightOf="@id/tv_status"/>
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:text="Created"
+        android:layout_toRightOf="@id/tv_idUser"
+        android:paddingRight="8dp"
+        android:textStyle="bold"
+        android:id="@+id/tv_created"/>
+
+        <TextView
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/created"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/tv_created"
+            android:layout_toRightOf="@id/tv_idUser"/>
+
+</RelativeLayout>

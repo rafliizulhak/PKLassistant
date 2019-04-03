@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.pklassistant">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".app.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".login"
+            android:noHistory="true" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".admin_main" />
+        <activity android:name=".detail_tempat" />
+        <activity android:name=".profil_siswa" />
+        <activity android:name=".pesan_siswa" />
+        <activity android:name=".list_pengajuan" />
+        <activity android:name=".bantuan_siswa" />
+        <activity android:name=".bantuan_siswa_1" />
+        <activity android:name=".bantuan_siswa_2" />
+        <activity android:name=".pengaturan_siswa" />
+        <activity android:name=".pengaturan_administrator" />
+        <activity android:name=".admin_crud_pkl" />
+        <activity android:name=".admin_createdata" />
+        <activity android:name=".activity_admindetailtempat" />
+        <activity android:name=".pesan_admin"></activity>
+    </application>
+
+</manifest>

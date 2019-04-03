@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Home"
+                    android:layout_centerInParent="true"
+                    android:textColor="@android:color/white"
+                    android:textSize="22sp"
+                    android:layout_alignParentLeft="true"/>
+
+                <ImageButton
+                    android:id="@+id/btn_pengaturan"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/cog_solid"
+                    android:scaleType="centerCrop"
+                    android:layout_marginRight="12dp"
+                    android:backgroundTint="@android:color/transparent"/>
+
+            </RelativeLayout>
+        </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@id/toolbar"
+        android:layout_above="@id/bottomnav">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Daftar perusahaan yang menerima siswa PKL"
+            android:layout_margin="8dp"
+            android:id="@+id/tv_desc"
+            android:layout_below="@id/toolbar"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_main_siswa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorAccent"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:id="@+id/bottomnav">
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_toLeftOf="@id/btn_home"
+            android:src="@drawable/user_silhouette"
+            android:layout_centerInParent="true"
+            android:backgroundTint="@android:color/transparent"
+            android:scaleType="centerCrop"
+            android:id="@+id/btn_user"
+            android:layout_marginRight="22dp"/>
+
+        <ImageButton
+            android:id="@+id/btn_home"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/home"
+            android:backgroundTint="@android:color/transparent"
+            android:scaleType="centerCrop"/>
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@id/btn_home"
+            android:src="@drawable/message_closed_envelope"
+            android:scaleType="centerCrop"
+            android:backgroundTint="@android:color/transparent"
+            android:id="@+id/btn_pesan"
+            android:layout_marginLeft="22dp"/>
+
+    </RelativeLayout>
+
+    </RelativeLayout>

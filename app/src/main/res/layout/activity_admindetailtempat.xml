@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity_admindetailtempat"
+    android:background="@drawable/background_app">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="12dp"
+            android:layout_marginTop="18dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:text="Nama"/>
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_nama_perusahaan"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rounded_corner2"
+            android:textSize="16sp"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="12dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:text="Alamat"/>
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_alamat_perusahaan"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/rounded_corner2"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="12dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:textSize="20sp"
+            android:text="Nomor Telp Perusahaan"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_telp_perusahaan"
+            android:background="@drawable/rounded_corner2"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="12dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:textSize="20sp"
+            android:text="Keterangan"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_keterangan"
+            android:background="@drawable/rounded_corner2"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:layout_marginBottom="28dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="12dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"
+            android:text="Link google maps"
+            android:textColor="@android:color/holo_blue_light"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/linkMaps"
+            android:paddingLeft="18dp"
+            android:layout_marginBottom="18dp"
+            android:textSize="16sp"/>
+
+</LinearLayout>

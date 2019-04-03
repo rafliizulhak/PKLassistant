@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PKL Assistant</string>
+    <string name="hubin1">PKL ASSISTANT</string>
+    <string name="hubin2">SMKN 4 KOTA BANDUNG</string>
+    <string name="home">Home</string>
+    <string name="profil">Profil</string>
+    <string name="pesan">Pesan</string>
+    <string name="rekomendasi">Rekomendasi tempat PKL</string>
+    <string name="bantuan_1_1">1. setelah anda mendapatkan tempat pkl dan telah survei ke sana, silahkan ke tampilan home aplikasi pengajuan pkl</string>
+    <string name="bantuan_1_2">2. kemudian, klik ikon user di tombol navigasi bawah</string>
+    <string name="bantuan_1_3">3. setelah diklik maka kamu akan dialihkan ke tampilan profil siswa, lalu klik tombol Form Pengajuan Siswa</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin_createdata"
+    android:orientation="vertical"
+    android:background="@drawable/background_app">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tambah Data"
+        android:textSize="30sp"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="18dp"
+        android:textColor="@android:color/white"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tempat Rekomendasi PKL"
+        android:textSize="22sp"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="18dp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:id="@+id/et_nama_perusahaan"
+            android:hint="Nama Perusahaan"
+            android:background="@drawable/rounded_corner2"
+            android:textColorHint="@android:color/darker_gray"
+            android:paddingLeft="18dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="16dp"
+            android:inputType="text"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:id="@+id/et_alamat_perusahaan"
+            android:background="@drawable/rounded_corner2"
+            android:textColorHint="@android:color/darker_gray"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="18dp"
+            android:layout_marginBottom="8dp"
+            android:hint="Alamat Perusahaan"
+            android:inputType="text"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:id="@+id/et_telp_perusahaan"
+            android:background="@drawable/rounded_corner2"
+            android:textColorHint="@android:color/darker_gray"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="18dp"
+            android:layout_marginBottom="8dp"
+            android:hint="Nomor Telepon Perusahaan"
+            android:inputType="number"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:id="@+id/et_keterangan"
+            android:background="@drawable/rounded_corner2"
+            android:textColorHint="@android:color/darker_gray"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="18dp"
+            android:layout_marginBottom="8dp"
+            android:hint="Keterangan"
+            android:inputType="text"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:id="@+id/linkMaps"
+            android:background="@drawable/rounded_corner2"
+            android:textColorHint="@android:color/darker_gray"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="18dp"
+            android:layout_marginBottom="27dp"
+            android:hint="Link Google Maps"
+            android:inputType="text" />
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corner"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/bt_submit"
+            android:text="Submit"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>

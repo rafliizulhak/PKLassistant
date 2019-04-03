@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bantuan_siswa"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_bantuan"
+        android:text="Bantuan"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="22sp"
+        android:layout_margin="8dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_bantuan"
+        android:backgroundTint="@android:color/transparent"
+        android:text="Bagaimana Cara Mengirim Pesan"
+        android:textAllCaps="false"
+        android:gravity="center_vertical"
+        android:padding="18dp"
+        android:id="@+id/btn_bantuan_1"/>
+
+</RelativeLayout>
